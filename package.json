@@ -2,7 +2,7 @@
   "name": "imdb",
   "version": "0.0.3",
   "description": "An IMDB API for getting information on your favourite movies!",
-  "main": "imdb.js",
+  "main": "index.js",
   "dependencies": {
     "cheerio": "^0.19.0",
     "request": "^2.65.0"
@@ -15,6 +15,18 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mhsjlw/imdb"
-  }
+    "url": "git+https://github.com/mhsjlw/imdb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhsjlw/imdb/issues"
+  },
+  "homepage": "https://github.com/mhsjlw/imdb#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "movies",
+    "imdb",
+    "api"
+  ]
 }
