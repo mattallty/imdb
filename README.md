@@ -5,13 +5,18 @@ imdb
 
 An IMDB API for getting information on your favourite movies!
 
-# Running / Building
+## Installing
+Install via [npm](https://npmjs.com)
+
+    $ npm install imdb
+
+## Running / Building
 To run the example:
 
     $ npm install
     $ node example/movie.js
     
-# API / Usage
+## API / Usage
 
 Provide the IMDB ID and go!
 ```
