@@ -1,5 +1,8 @@
 imdb
 ====
+![npm](https://img.shields.io/npm/v/imdb.svg)
+![downloads](https://img.shields.io/npm/dt/imdb.svg)
+![issues](https://img.shields.io/github/issues/mhsjlw/imdb.svg)
 
 > "They told me I couldn't do it. So that's why I did it." - Anonymous
 
