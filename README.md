@@ -22,10 +22,24 @@ To run the example:
 ## API / Usage
 
 Provide the IMDB ID and go!
+
+### Movies and TV Shows
 ```
 var imdb = require('imdb');
 
-imdb('tt0066995', function(err, data) {
+imdb('tt3659388', function(err, data) {
+    if(err)
+        throw err;
+
+    console.log(data);
+});
+```
+
+### Actors
+```
+var imdb = require('imdb');
+
+imdb('nm0000354', function(err, data) {
     if(err)
         throw err;
 
