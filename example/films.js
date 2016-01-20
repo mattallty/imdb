@@ -1,6 +1,6 @@
 var imdb = require("../lib/imdb.js")
 
-imdb("nm0000354", function(err, data) {
+imdb("nm0544718", function(err, data) {
     if(err)
         throw err;
  
