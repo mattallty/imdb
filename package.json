@@ -1,6 +1,6 @@
 {
   "name": "imdb",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An IMDB API for getting information on your favourite movies!",
   "main": "index.js",
   "dependencies": {

@@ -1,4 +1,4 @@
-var imdb = require("../lib/imdb.js")
+var imdb = require('../index')
 
 imdb("nm0544718", function(err, data) {
     if(err)

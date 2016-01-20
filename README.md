@@ -2,7 +2,6 @@ imdb
 ====
 ![npm](https://img.shields.io/npm/v/imdb.svg)
 ![downloads](https://img.shields.io/npm/dt/imdb.svg)
-![issues](https://img.shields.io/github/issues/mhsjlw/imdb.svg)
 
 > "They told me I couldn't do it. So that's why I did it." - Anonymous
 
@@ -21,25 +20,12 @@ To run the example:
     
 ## API / Usage
 
-Provide the IMDB ID and go!
+Provide the IMDB ID and go! Also see the examples folder for inspiration!
 
-### Movies and TV Shows
-```
+```javascript
 var imdb = require('imdb');
 
 imdb('tt3659388', function(err, data) {
-    if(err)
-        throw err;
-
-    console.log(data);
-});
-```
-
-### Actors
-```
-var imdb = require('imdb');
-
-imdb('nm0000354', function(err, data) {
     if(err)
         throw err;
 
