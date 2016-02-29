@@ -1,6 +1,6 @@
 {
   "name": "imdb",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "An IMDB API for getting information on your favourite movies!",
   "main": "index.js",
   "dependencies": {
@@ -21,9 +21,6 @@
     "url": "https://github.com/mhsjlw/imdb/issues"
   },
   "homepage": "https://github.com/mhsjlw/imdb#readme",
-  "directories": {
-    "example": "example"
-  },
   "keywords": [
     "movies",
     "imdb",

@@ -1,1 +1,1 @@
-module.exports = require('./lib/imdb.js');
+module.exports = require('./lib/imdb');
